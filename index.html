@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src='https://unpkg.com/tesseract.js@4.0.1/dist/tesseract.min.js'></script>
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+
+    <h1>Audio Book Reader</h1>
+    <ol>
+        <li> Click on "start" to begin </li>
+        <li>Raise the text you want to read to the camera</li>
+        <li>Press the spacebar button to capture the text</li>
+        <li>Click on "speak" after text is generated to playback audio</li>
+    </ol>
+
+    <button class="start-btn"> Start</button>
+    <p class = "offline-message"> You are offline, please connect to the internet</p>
+    <div class=video-div>
+        <video width="720" height="560" autoplay muted>
+
+        </video>
+    </div>
+    <pre data-text>
+
+    </pre>
+    <button class="speak">Speak</button>
+</body>
+
+</html>

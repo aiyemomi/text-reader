@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+    text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
+    box-shadow: inset 0 0 5rem rgb(0 0 0 / 50%);
+    color: #fff;
+    background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 1.5;
+}
+
+pre {
+    font-family: inherit;
+    width: 100%;
+    white-space: pre-wrap;
+    padding: 40px;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+ol {
+    margin: 50px;
+}
+
+.speak {
+    display: none;
+    padding: 8px 100px;
+    margin: 0 auto;
+    color: #333;
+    text-shadow: none;
+    font-weight: 700;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.start-btn {
+    padding: 8px 100px;
+    display: block;
+    margin: 0 auto;
+    color: #333;
+    text-shadow: none;
+    font-weight: 700;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.offline-message {
+    display: none;
+}
+
